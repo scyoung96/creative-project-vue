@@ -4,7 +4,13 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+
     <router-view/>
+
+    <footer style="text-align:center">
+      <p><a href="https://github.com/scyoung96/creative-project-vue">Link to Github</a></p>
+    </footer>
+
   </div>
 </template>
 
